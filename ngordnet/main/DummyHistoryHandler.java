@@ -8,7 +8,6 @@ import org.knowm.xchart.XYChart;
 
 import java.util.ArrayList;
 
-
 public class DummyHistoryHandler extends NgordnetQueryHandler {
     @Override
     public String handle(NgordnetQuery q) {
