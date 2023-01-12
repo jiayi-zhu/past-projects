@@ -1,0 +1,77 @@
+You must answer at least 4 questions, but the remaining ones are optional. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The wrapIndex method could be fulfilled by only one line of code, whereas the method I wrote was unnecessarily complex. 
+
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: The resize method I wrote is efficient.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: The way I constructed wrapNext was redundant (it takes in another boolean parameter that indicates 
+moving left or not, which is unnecessary). 
+The wrapIndex Method could be more concise. 
+
+
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A:
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I wish I would have known to treat the array circularly.  
+
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I would write the wrapIndex method in a more concise way. 
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The constructor inside the private class can omit the public/privtae keyword. 
+
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: 
+The way I constructed addFirst method is inelegant (I used 2 sets of conditional expressions). The staff code created 4 pointers which is logically more clear.  
+The getRecursive method, I didn't take the case that index is out of bound into account.
+
+
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A:
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A:
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A:
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: 
+
+
+Santa baboon
